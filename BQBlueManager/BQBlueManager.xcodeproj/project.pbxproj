@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD3CB200202D9CC70045718D /* FirewareUpdateService.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3CB1EC202D9CC70045718D /* FirewareUpdateService.m */; };
+		BD3CB201202D9CC70045718D /* LGCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3CB1F0202D9CC70045718D /* LGCentralManager.m */; };
+		BD3CB202202D9CC70045718D /* LGCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3CB1F2202D9CC70045718D /* LGCharacteristic.m */; };
+		BD3CB203202D9CC70045718D /* LGPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3CB1F4202D9CC70045718D /* LGPeripheral.m */; };
+		BD3CB204202D9CC70045718D /* LGService.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3CB1F6202D9CC70045718D /* LGService.m */; };
+		BD3CB205202D9CC70045718D /* LGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3CB1F8202D9CC70045718D /* LGUtils.m */; };
+		BD3CB206202D9CC70045718D /* YFBTHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3CB1FB202D9CC70045718D /* YFBTHandler.m */; };
+		BD3CB209202D9E160045718D /* FirewareUpdateService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD3CB1EB202D9CC70045718D /* FirewareUpdateService.h */; };
+		BD3CB20A202D9E160045718D /* LGBluetooth.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD3CB1EE202D9CC70045718D /* LGBluetooth.h */; };
+		BD3CB20B202D9E160045718D /* LGCentralManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD3CB1EF202D9CC70045718D /* LGCentralManager.h */; };
+		BD3CB20C202D9E160045718D /* LGCharacteristic.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD3CB1F1202D9CC70045718D /* LGCharacteristic.h */; };
+		BD3CB20D202D9E160045718D /* LGPeripheral.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD3CB1F3202D9CC70045718D /* LGPeripheral.h */; };
+		BD3CB20E202D9E160045718D /* LGService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD3CB1F5202D9CC70045718D /* LGService.h */; };
+		BD3CB20F202D9E160045718D /* LGUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD3CB1F7202D9CC70045718D /* LGUtils.h */; };
+		BD3CB210202D9E160045718D /* YFBluetoothConstant.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD3CB1F9202D9CC70045718D /* YFBluetoothConstant.h */; };
+		BDDD17A12043AFA300F9A452 /* YFCommunicationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDD17A02043AFA300F9A452 /* YFCommunicationManager.m */; };
+		BDDD17A22043AFB000F9A452 /* YFCommunicationManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BDDD179F2043AFA300F9A452 /* YFCommunicationManager.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BD3CB1DB202D9CA50045718D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				BDDD17A22043AFB000F9A452 /* YFCommunicationManager.h in CopyFiles */,
+				BD3CB209202D9E160045718D /* FirewareUpdateService.h in CopyFiles */,
+				BD3CB20A202D9E160045718D /* LGBluetooth.h in CopyFiles */,
+				BD3CB20B202D9E160045718D /* LGCentralManager.h in CopyFiles */,
+				BD3CB20C202D9E160045718D /* LGCharacteristic.h in CopyFiles */,
+				BD3CB20D202D9E160045718D /* LGPeripheral.h in CopyFiles */,
+				BD3CB20E202D9E160045718D /* LGService.h in CopyFiles */,
+				BD3CB20F202D9E160045718D /* LGUtils.h in CopyFiles */,
+				BD3CB210202D9E160045718D /* YFBluetoothConstant.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BD3CB1DD202D9CA50045718D /* libBQBlueManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBQBlueManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3CB1EB202D9CC70045718D /* FirewareUpdateService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirewareUpdateService.h; sourceTree = "<group>"; };
+		BD3CB1EC202D9CC70045718D /* FirewareUpdateService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirewareUpdateService.m; sourceTree = "<group>"; };
+		BD3CB1EE202D9CC70045718D /* LGBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGBluetooth.h; sourceTree = "<group>"; };
+		BD3CB1EF202D9CC70045718D /* LGCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCentralManager.h; sourceTree = "<group>"; };
+		BD3CB1F0202D9CC70045718D /* LGCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCentralManager.m; sourceTree = "<group>"; };
+		BD3CB1F1202D9CC70045718D /* LGCharacteristic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCharacteristic.h; sourceTree = "<group>"; };
+		BD3CB1F2202D9CC70045718D /* LGCharacteristic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCharacteristic.m; sourceTree = "<group>"; };
+		BD3CB1F3202D9CC70045718D /* LGPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPeripheral.h; sourceTree = "<group>"; };
+		BD3CB1F4202D9CC70045718D /* LGPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPeripheral.m; sourceTree = "<group>"; };
+		BD3CB1F5202D9CC70045718D /* LGService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGService.h; sourceTree = "<group>"; };
+		BD3CB1F6202D9CC70045718D /* LGService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGService.m; sourceTree = "<group>"; };
+		BD3CB1F7202D9CC70045718D /* LGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGUtils.h; sourceTree = "<group>"; };
+		BD3CB1F8202D9CC70045718D /* LGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGUtils.m; sourceTree = "<group>"; };
+		BD3CB1F9202D9CC70045718D /* YFBluetoothConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFBluetoothConstant.h; sourceTree = "<group>"; };
+		BD3CB1FA202D9CC70045718D /* YFBTHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFBTHandler.h; sourceTree = "<group>"; };
+		BD3CB1FB202D9CC70045718D /* YFBTHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFBTHandler.m; sourceTree = "<group>"; };
+		BDDD179F2043AFA300F9A452 /* YFCommunicationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFCommunicationManager.h; sourceTree = "<group>"; };
+		BDDD17A02043AFA300F9A452 /* YFCommunicationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFCommunicationManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD3CB1DA202D9CA50045718D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD3CB1D4202D9CA50045718D = {
+			isa = PBXGroup;
+			children = (
+				BD3CB1DF202D9CA50045718D /* BQBlueManager */,
+				BD3CB1DE202D9CA50045718D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD3CB1DE202D9CA50045718D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD3CB1DD202D9CA50045718D /* libBQBlueManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD3CB1DF202D9CA50045718D /* BQBlueManager */ = {
+			isa = PBXGroup;
+			children = (
+				BD3CB1E9202D9CC70045718D /* BLE */,
+			);
+			path = BQBlueManager;
+			sourceTree = "<group>";
+		};
+		BD3CB1E9202D9CC70045718D /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				BD3CB1EA202D9CC70045718D /* FirewareUpdate */,
+				BD3CB1ED202D9CC70045718D /* LGBluetooth */,
+				BD3CB1F9202D9CC70045718D /* YFBluetoothConstant.h */,
+				BD3CB1FA202D9CC70045718D /* YFBTHandler.h */,
+				BD3CB1FB202D9CC70045718D /* YFBTHandler.m */,
+				BDDD179F2043AFA300F9A452 /* YFCommunicationManager.h */,
+				BDDD17A02043AFA300F9A452 /* YFCommunicationManager.m */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		BD3CB1EA202D9CC70045718D /* FirewareUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				BD3CB1EB202D9CC70045718D /* FirewareUpdateService.h */,
+				BD3CB1EC202D9CC70045718D /* FirewareUpdateService.m */,
+			);
+			path = FirewareUpdate;
+			sourceTree = "<group>";
+		};
+		BD3CB1ED202D9CC70045718D /* LGBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				BD3CB1EE202D9CC70045718D /* LGBluetooth.h */,
+				BD3CB1EF202D9CC70045718D /* LGCentralManager.h */,
+				BD3CB1F0202D9CC70045718D /* LGCentralManager.m */,
+				BD3CB1F1202D9CC70045718D /* LGCharacteristic.h */,
+				BD3CB1F2202D9CC70045718D /* LGCharacteristic.m */,
+				BD3CB1F3202D9CC70045718D /* LGPeripheral.h */,
+				BD3CB1F4202D9CC70045718D /* LGPeripheral.m */,
+				BD3CB1F5202D9CC70045718D /* LGService.h */,
+				BD3CB1F6202D9CC70045718D /* LGService.m */,
+				BD3CB1F7202D9CC70045718D /* LGUtils.h */,
+				BD3CB1F8202D9CC70045718D /* LGUtils.m */,
+			);
+			path = LGBluetooth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD3CB1DC202D9CA50045718D /* BQBlueManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD3CB1E6202D9CA50045718D /* Build configuration list for PBXNativeTarget "BQBlueManager" */;
+			buildPhases = (
+				BD3CB1D9202D9CA50045718D /* Sources */,
+				BD3CB1DA202D9CA50045718D /* Frameworks */,
+				BD3CB1DB202D9CA50045718D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BQBlueManager;
+			productName = BQBlueManager;
+			productReference = BD3CB1DD202D9CA50045718D /* libBQBlueManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD3CB1D5202D9CA50045718D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Coollang-YF";
+				TargetAttributes = {
+					BD3CB1DC202D9CA50045718D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BD3CB1D8202D9CA50045718D /* Build configuration list for PBXProject "BQBlueManager" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD3CB1D4202D9CA50045718D;
+			productRefGroup = BD3CB1DE202D9CA50045718D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD3CB1DC202D9CA50045718D /* BQBlueManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD3CB1D9202D9CA50045718D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3CB204202D9CC70045718D /* LGService.m in Sources */,
+				BD3CB202202D9CC70045718D /* LGCharacteristic.m in Sources */,
+				BD3CB206202D9CC70045718D /* YFBTHandler.m in Sources */,
+				BDDD17A12043AFA300F9A452 /* YFCommunicationManager.m in Sources */,
+				BD3CB200202D9CC70045718D /* FirewareUpdateService.m in Sources */,
+				BD3CB201202D9CC70045718D /* LGCentralManager.m in Sources */,
+				BD3CB203202D9CC70045718D /* LGPeripheral.m in Sources */,
+				BD3CB205202D9CC70045718D /* LGUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD3CB1E4202D9CA50045718D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD3CB1E5202D9CA50045718D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD3CB1E7202D9CA50045718D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4JK97749S;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD3CB1E8202D9CA50045718D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4JK97749S;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD3CB1D8202D9CA50045718D /* Build configuration list for PBXProject "BQBlueManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3CB1E4202D9CA50045718D /* Debug */,
+				BD3CB1E5202D9CA50045718D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD3CB1E6202D9CA50045718D /* Build configuration list for PBXNativeTarget "BQBlueManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3CB1E7202D9CA50045718D /* Debug */,
+				BD3CB1E8202D9CA50045718D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD3CB1D5202D9CA50045718D /* Project object */;
+}
